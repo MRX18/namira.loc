@@ -1,0 +1,179 @@
+<IfModule mod_rewrite.c>
+
+		#SERVER
+#    RewriteEngine On
+#
+#    RewriteCond %{HTTP_HOST} ^origami\.team$
+#    RewriteCond %{REQUEST_URI} !^/public/
+#    RewriteRule (.*) /public/$1
+#
+#    RewriteEngine On
+#
+#    RewriteCond %{HTTP_HOST} ^keepmoving\.origami\.team$
+#    RewriteCond %{REQUEST_URI} !^/keepmoving/
+#    RewriteRule (.*) /public/$1
+
+
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/butovyy-kamen/ https://midasstone.com.ua/prirodnyy-kamen
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/butovyy-kamen https://midasstone.com.ua/prirodnyy-kamen
+    Redirect 301 /contact-us/ https://midasstone.com.ua/contact
+    Redirect 301 /contact-us https://midasstone.com.ua/contact
+    Redirect 301 /about_us.html/ https://midasstone.com.ua/about
+    Redirect 301 /about_us.html https://midasstone.com.ua/about
+    Redirect 301 /vse-uslugi.html/ https://midasstone.com.ua
+		Redirect 301 /vse-uslugi.html https://midasstone.com.ua
+    Redirect 301 /catalog-tovarov/iskusstvennoe-pokrytie/ https://midasstone.com.ua/iskusstvennoe-pokrytie
+		Redirect 301 /catalog-tovarov/iskusstvennoe-pokrytie https://midasstone.com.ua/iskusstvennoe-pokrytie
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/mramornaya-galka/ https://midasstone.com.ua/prirodnyy-kamen/mramornaya-galka
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/mramornaya-galka https://midasstone.com.ua/prirodnyy-kamen/mramornaya-galka
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/plitka-iz-kamnya/ https://midasstone.com.ua/prirodnyy-kamen/plitka-iz-kamnya
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/plitka-iz-kamnya https://midasstone.com.ua/prirodnyy-kamen/plitka-iz-kamnya
+    Redirect 301 /oplata.html/ https://midasstone.com.ua/
+    Redirect 301 /oplata.html https://midasstone.com.ua/
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/opory-dlya-sadovyh-rasteniy-/ https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura/opory-dlya-sadovykh-rasteniy
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/opory-dlya-sadovyh-rasteniy- https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura/opory-dlya-sadovykh-rasteniy
+    Redirect 301 /catalog-tovarov/gazon/ https://midasstone.com.ua/rulonnyy-gazon
+    Redirect 301 /catalog-tovarov/gazon https://midasstone.com.ua/rulonnyy-gazon
+    Redirect 301 /delivery.html/ https://midasstone.com.ua/delivery
+    Redirect 301 /delivery.html https://midasstone.com.ua/delivery
+    Redirect 301 /catalog-tovarov/cmes-semyan-gazonnyh-trav/ https://midasstone.com.ua/cmes-semyan-gazonnykh-trav
+    Redirect 301 /catalog-tovarov/cmes-semyan-gazonnyh-trav https://midasstone.com.ua/cmes-semyan-gazonnykh-trav
+    Redirect 301 /catalog-tovarov/florovit/ https://midasstone.com.ua/florovit
+    Redirect 301 /catalog-tovarov/florovit https://midasstone.com.ua/florovit
+    Redirect 301 /catalog-tovarov/dekorativnye-rasteniya/beresklet-vechnozelenyy.html/ https://midasstone.com.ua/dekorativnye-rasteniya/tsvety-mnogoletnie/1850-beresklet-vechnozelenyy
+    Redirect 301 /catalog-tovarov/dekorativnye-rasteniya/beresklet-vechnozelenyy.html https://midasstone.com.ua/dekorativnye-rasteniya/tsvety-mnogoletnie/1850-beresklet-vechnozelenyy
+    Redirect 301 /catalog-tovarov/oborudovanie-dlya-vodoemov-i-fontanov-sicce/ https://midasstone.com.ua/oborudovanie-dlya-vodoemov-i-fontanov-sicce
+    Redirect 301 /catalog-tovarov/oborudovanie-dlya-vodoemov-i-fontanov-sicce https://midasstone.com.ua/oborudovanie-dlya-vodoemov-i-fontanov-sicce
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/mikroorositeli-i-ustroystva-raspredeleniya-vody/ https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/mikroorositeli-i-ustroystva-raspredeleniya-vody https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    RewriteRule /catalog-tovarov/prirodniy-kamn/mramornaya-galka/$ https://midasstone.com.ua/prirodnyy-kamen/mramornaya-galka? [L,R=301]
+    Redirect 301 /search/ https://midasstone.com.ua
+    Redirect 301 /search https://midasstone.com.ua
+    Redirect 301 /checkout/ /
+    Redirect 301 /checkout /
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/kamen-plastoviy-oblicyuvalniy/ https://midasstone.com.ua/prirodnyy-kamen
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/kamen-plastoviy-oblicyuvalniy https://midasstone.com.ua/prirodnyy-kamen
+    #Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/xq-100\s.html /rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/katalog-tovarov-irritec/fitingi-zazhimnyerezbovye-dlya-vodoprovoda/ https://midasstone.com.ua/irritec/fitingi-dlya-vodoprovoda/?
+    Redirect 301 /catalog-tovarov/katalog-tovarov-irritec/fitingi-zazhimnyerezbovye-dlya-vodoprovoda https://midasstone.com.ua/irritec/fitingi-dlya-vodoprovoda/?
+    Redirect 301 /catalog-tovarov/oborudovanie-dlya-vodoemov-i-fontanov-sicce/malenkie-fontannye-nasosy/ https://midasstone.com.ua/oborudovanie-dlya-vodoemov-i-fontanov-sicce/malenkie-fontannye-nasosy
+    Redirect 301 /catalog-tovarov/oborudovanie-dlya-vodoemov-i-fontanov-sicce/malenkie-fontannye-nasosy https://midasstone.com.ua/oborudovanie-dlya-vodoemov-i-fontanov-sicce/malenkie-fontannye-nasosy
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/marmurova-krihta/ https://midasstone.com.ua/prirodnyy-kamen
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/marmurova-krihta https://midasstone.com.ua/prirodnyy-kamen
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/shpalera-pristennaya.html/ https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/shpalera-pristennaya.html https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/aksessuary-i-klapany-bystrogo-dostupa/ https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/aksessuary-i-klapany-bystrogo-dostupa https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/vydvizhnye-raspyliteli-rain-bird/ https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/vydvizhnye-raspyliteli-rain-bird https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/butovyy-kamen/?page=2 https://midasstone.com.ua/prirodnyy-kamen?
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/mebel-sadovaya/ https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura/mebel-sadovaya
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/mebel-sadovaya https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura/mebel-sadovaya
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/sadovye-arki-v-assortimente.html https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/rain-bird-sxb360-spyk.html https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/katalog-tovarov-irritec/fitingi-zazhimnyerezbovye-dlya-vodoprovoda/?page=2 https://midasstone.com.ua/irritec/fitingi-dlya-vodoprovoda
+    Redirect 301 /catalog-tovarov/prirodniy-kamn/ https://midasstone.com.ua/prirodnyy-kamen
+    Redirect 301 /catalog-tovarov/prirodniy-kamn https://midasstone.com.ua/prirodnyy-kamen
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura/ https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura
+    Redirect 301 /catalog-tovarov/sadovaya-mebel-i-arhitektura https://midasstone.com.ua/sadovaya-mebel-i-arkhitektura
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva/ https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/sistemy-avtomaticheskogo-poliva https://midasstone.com.ua/rain-bird-avtomaticheskiy-poliv
+    Redirect 301 /catalog-tovarov/dekorativnye-rasteniya/ https://midasstone.com.ua/dekorativnye-rasteniya
+    Redirect 301 /catalog-tovarov/dekorativnye-rasteniya https://midasstone.com.ua/dekorativnye-rasteniya
+    Redirect 301 /catalog-tovarov/katalog-tovarov-irritec/ https://midasstone.com.ua/irritec
+    Redirect 301 /catalog-tovarov/katalog-tovarov-irritec https://midasstone.com.ua/irritec
+    Redirect 301 /catalog-tovarov/ /
+    Redirect 301 /catalog-tovarov /
+#    RewriteRule ^/index.php?route=gallery/gallery&path=&page=(.*)?$ https://midasstone.com.ua/our-works [R=301,L]
+    RewriteCond %{QUERY_STRING} ^route=([^&]+)&path=$ [NC]
+    RewriteRule ^index\.php$ https://midasstone.com.ua/our-works? [NC,L,R=301]
+    RewriteCond %{QUERY_STRING} ^route=([^&]+)&path=&page=([^&]+)$ [NC]
+    RewriteRule ^index\.php$ https://midasstone.com.ua/our-works? [NC,L,R=301]
+
+    #LOCALHOST
+		RewriteEngine On
+#    RewriteCond %{HTTP_HOST} ^midassone\.com\.ua$
+#		RewriteCond %{REQUEST_URI} !^/public/
+		RewriteRule (.*) /public/$1
+#    RewriteRule (.*) /public/$1
+
+</IfModule>
+# Включаем кэш в браузерах посетителей
+<ifModule mod_headers.c>
+
+    # Все html и htm файлы будут храниться в кэше браузера один день
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=43200"
+    </FilesMatch>
+
+    # Все css, javascript и текстовые файлы будут храниться в кэше браузера одну неделю
+    <FilesMatch "\.(js|css|txt)$">
+        Header set Cache-Control "max-age=604800"
+    </FilesMatch>
+
+		# Все флэш файлы и изображения будут храниться в кэше браузера один месяц
+    <FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png|svg)$">
+        Header set Cache-Control "max-age=2592000"
+    </FilesMatch>
+
+		# Шрифты
+    <FilesMatch "\.(ttf)$">
+        Header set Cache-Control "max-age=604800"
+    </FilesMatch>
+
+    # Отключаем кеширование php и других служебных файлов
+    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+        Header unset Cache-Control
+    </FilesMatch>
+</ifModule>
+
+# Включаем кэш в браузерах посетителей
+<ifModule mod_headers.c>
+
+    # Все html и htm файлы будут храниться в кэше браузера один день
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=43200"
+    </FilesMatch>
+
+    # Все css, javascript и текстовые файлы будут храниться в кэше браузера одну неделю
+    <FilesMatch "\.(js|css|txt)$">
+        Header set Cache-Control "max-age=604800"
+    </FilesMatch>
+
+		# Все флэш файлы и изображения будут храниться в кэше браузера один месяц
+    <FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png|svg)$">
+        Header set Cache-Control "max-age=2592000"
+    </FilesMatch>
+
+		# Шрифты
+    <FilesMatch "\.(ttf)$">
+        Header set Cache-Control "max-age=604800"
+    </FilesMatch>
+
+    # Отключаем кеширование php и других служебных файлов
+    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+        Header unset Cache-Control
+    </FilesMatch>
+</ifModule>
+
+SetOutputFilter DEFLATE
+
+#<ifModule mod_expires.c>
+#    ExpiresActive On
+#    # по умолчанию кеш в 5 секунд
+#    ExpiresDefault "access plus 5 seconds"
+#    # Включаем кэширование изображений и флэш на месяц
+#    ExpiresByType image/x-icon "access plus 1 month"
+#    ExpiresByType image/jpeg "access plus 4 weeks"
+#    ExpiresByType image/png "access plus 6 month"
+#    ExpiresByType image/gif "access plus 43829 minutes"
+#    ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+#    # Включаем кэширование css, javascript и текстовых файлоф на одну неделю
+#    ExpiresByType text/css "access plus 604800 seconds"
+#    ExpiresByType text/javascript "access plus 604800 seconds"
+#    ExpiresByType application/x-javascript "access plus 604800 seconds"
+#    # Включаем кэширование html и htm файлов на один день
+#    ExpiresByType text/html "access plus 43200 seconds"
+#    # Включаем кэширование xml файлов на десять минут
+#    ExpiresByType application/xhtml+xml "access plus 600 seconds"
+#</ifModule>
